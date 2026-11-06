@@ -1,0 +1,15 @@
+{
+  "name": "qikchat",
+  "description": "QikChat plugins for Claude Code",
+  "owner": {
+    "name": "QikChat",
+    "url": "https://qik-chat.com"
+  },
+  "plugins": [
+    {
+      "name": "qikchat",
+      "source": "./qikchat",
+      "description": "Ask about your QikChat lead numbers. Read only, and it never sees lead details."
+    }
+  ]
+}

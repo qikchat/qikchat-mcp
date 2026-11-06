@@ -1,0 +1,13 @@
+{
+  "name": "qikchat",
+  "displayName": "QikChat",
+  "version": "0.1.0",
+  "description": "Ask about your QikChat lead numbers, such as leads captured this month or how many clicked through to the booking page. Read only, and it never sees lead details.",
+  "author": {
+    "name": "QikChat",
+    "url": "https://qik-chat.com"
+  },
+  "homepage": "https://qik-chat.com",
+  "privacyPolicyUrl": "https://app.qik-chat.com/privacy-policy",
+  "keywords": ["qikchat", "leads", "sales", "booking"]
+}

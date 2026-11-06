@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qikchat": {
+      "type": "http",
+      "url": "https://app.qik-chat.com/mcp",
+      "oauth": {
+        "clientId": "qikchat-claude-code",
+        "callbackPort": 33418
+      }
+    }
+  }
+}
