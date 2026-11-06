@@ -21,7 +21,7 @@ claude plugin install qikchat@qikchat --scope project
 claude
 ```
 
-Then connect your QikChat account:
+Then, connect your QikChat account:
 
 1. Run `/mcp`.
 2. Pick `plugin:qikchat:qikchat` and choose Authenticate.
