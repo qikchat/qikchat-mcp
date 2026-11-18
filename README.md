@@ -18,7 +18,7 @@ Install the plugin into a folder of its own:
 mkdir ~/qikchat && cd ~/qikchat
 claude plugin marketplace add qikchat/qikchat-mcp
 claude plugin install qikchat@qikchat --scope project
-claude
+claude --agent qikchat:qikchat
 ```
 
 Then, connect your QikChat account:
@@ -27,9 +27,9 @@ Then, connect your QikChat account:
 2. Pick `plugin:qikchat:qikchat` and choose Authenticate.
 3. Sign in to QikChat in the browser window that opens, and click Allow.
 
-Use `--scope project` in a folder of its own. The plugin runs the whole Claude Code session as a QikChat agent that has the three QikChat tools and nothing else, so it can't run commands, edit files or browse. At user scope, every other Claude Code session would lose those tools too.
+`--agent qikchat:qikchat` runs the session as a QikChat agent that has the three QikChat tools and nothing else, so it can't run commands, edit files or browse. Start it the same way each time. A plain `claude` session still gets the tools and the skill, alongside its usual tools.
 
-On claude.ai and Claude Desktop, the plugin's skill works with the QikChat connector. The agent and session settings apply to Claude Code only.
+On claude.ai and Claude Desktop, the plugin's skill works with the QikChat connector. The agent applies to Claude Code only.
 
 ## What you can ask about
 
